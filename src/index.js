@@ -1,5 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import MyApp from './componenets/MyApp'
+import 'mdb-react-ui-kit/dist/css/mdb.min.css'
+import MyApp from './components/CropPage/MyApp'
 
-ReactDOM.render(<MyApp />,document.getElementById('root'))
+import { BrowserRouter } from 'react-router-dom'
+ReactDOM.render(<BrowserRouter> <MyApp /> </BrowserRouter>,document.getElementById('root'))
